@@ -1,0 +1,20 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "root": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "plugins": ["@nestjs/swagger/plugin"],
+    "assets": [
+      {
+        "include": "**/model.conf",
+        "outDir": "dist/src",
+        "watchAssets": true
+      },
+      {
+        "include": "**/*.csv",
+        "outDir": "dist/src"
+      }
+    ]
+  }
+}

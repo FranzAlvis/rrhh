@@ -1,0 +1,23 @@
+export enum UnidadOrganizacionalMessages {
+  // Estructura organizacional
+  ORGANIGRAMA_NOT_FOUND = 'No existe el Organigrana',
+  ORGANIGRAMA_NOT_DELETE = 'No se puede eliminar el organigrama, tiene asignaciones de puestos asociadas',
+  ESCALA_SALARIAL_NOT_FOUND = 'Not existe la Escala Salarial',
+  ORGANIZACIONTAL_UNIT_NOT_FOUND = 'No se encontró la unidad organizacional',
+  ORGANIZACIONTAL_ROOT_FOUND = 'No se encontró el nodo superior de la jerárquica',
+  ORGANIZACIONTAL_NOT_ALLOW_HAS_NEW_ROOT = 'No es permitido tener un nuevo nodo superior de la jerárquica',
+  ORGANIZACIONTAL_NOT_ELABORACION = 'El organigrama no se encuentra en estado Elaboracion',
+  ORGANIZACIONTAL_NOT_REVISION = 'El organigrama no se encontró o no se encuentra en estado de REVISION',
+  HAS_CHILDRENS = 'La unidad organizacional tiene unidades que dependen de ella.',
+  DEPENDED_ON_OTHER_TABLE = 'La unidad organizacional tiene depencia en otra tabla.',
+  ROOT_NOT_BE_DELETED = 'La unidad organizacional raiz no puede ser eliminada.',
+  UNIDAD_ORGANIZACIONAL_NOT_FOUND = 'No existe la unidad organizacional',
+  ASIGNACION_PUESTO_NOT_FOUND = 'No existe la asignación de puesto',
+  UNIDAD_ORGANIZACIONAL_UPDATE_FAILED = 'La actualizacion en unidad organizacional fallo',
+  UNIDAD_ORGANIZACIONAL_CREATE_FAILED = 'La creación en unidad organizacional fallo',
+  EXISTING_SIGLA_UNIDAD_ORGANIZACIONAL = 'Ya existe la sigla.',
+  EXISTING_NOMBRE_UNIDAD_ORGANIZACIONAL = 'Ya existe el nombre.',
+  DUPLICATE_NRO_ITEM_CARGO_UNIDAD_ORGANIZACIONAL = 'Ya existe un cargo con el mismo número de item en la unidad organizacional',
+  EXISTING_NRO_ASIGNACION_DE_PUESTOS = 'Ya exsite el nro de item en la asignación de puesto',
+  NOT_FOUND_USUARIO_ASIGNACION_DE_PUESTOS = 'Todas las asignaciones de puestos anterioes deben existir',
+}
